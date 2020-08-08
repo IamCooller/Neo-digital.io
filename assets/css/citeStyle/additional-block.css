@@ -1,0 +1,39 @@
+.additional-block {
+    background: linear-gradient(35.31deg, #1A0E24 0%, #2E2236 100%);
+    padding: 5em 2em;
+}
+
+.additional-block-more-about h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.additional-block-more-about p {
+    font-family: 'Lato';
+    font-size: 22px;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-weight: 300;
+    max-width: 472px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.additional-block-more-about p span {
+    font-family: 'Lato';
+    font-weight: bold;
+}
+
+@media(max-width:400px){
+    .additional-block-more-about h3{
+        font-size: 30px;
+    }
+    .additional-block-more-about p{
+        font-size: 14px;
+    }
+}

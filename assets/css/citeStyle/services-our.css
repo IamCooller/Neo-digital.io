@@ -1,0 +1,99 @@
+.services-our {
+    background: linear-gradient(35.42deg, #A234D5 0%, #D74059 100%);
+    padding: 10vw 0;
+}
+
+.services-our h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 7vw;
+}
+
+.services-all span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 3vw;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.services-all span:first-child {
+    margin-left: 0px;
+}
+
+.services-all{
+ border-bottom: 1px solid #ffffff78;
+ width: fit-content;
+ padding: 0;
+ padding-bottom: 25px;
+ margin: 0 auto;
+}
+
+
+.service-capabilities{
+    margin-top: 10vw;
+}
+
+.service-capabilities-info h3 , p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 23px;
+    color: #FFFFFF;
+      letter-spacing: 0.03em;
+}
+
+.service-capabilities-info 
+p {
+   font-weight: 200;
+   font-size: 20px;
+   line-height: 20px;
+}
+
+.service-capabilities-info span{
+    font-weight: bold;
+}
+
+.capabilities-img img{
+    width: 100%;
+}
+
+@media(max-width:990px){
+    .services-all span{
+        font-size: 15px;
+    }
+    .services-our h2{
+        font-size: 30px;
+    }
+
+    .service-capabilities-info h3{
+font-size: 20px;
+    }
+
+    .service-capabilities-info p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:500px){
+    .services-all{
+        flex-direction: column;
+        text-align: center;
+    }
+    .services-all span{
+        margin-left: 0;
+        margin-top: 1vh;
+    }
+}

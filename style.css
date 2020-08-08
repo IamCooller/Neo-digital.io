@@ -1,0 +1,14 @@
+@import url("assets/css/citeStyle/normilaze.css");
+@import url("assets/css/citeStyle/header.css");
+@import url("assets/css/citeStyle/additional-block.css");
+@import url("assets/css/citeStyle/services-our.css");
+@import url("assets/css/citeStyle/who-me.css");
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
